@@ -1,0 +1,43 @@
+.Navbar {
+  background-color: #a34500;
+}
+
+.Navbar .container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar .items-wrapper ul {
+  display: flex;
+}
+
+.Navbar .item {
+  margin: 0 1rem;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+/* submenu styling */
+
+.welcome-submenu {
+  display: none !important;
+}
+
+.item:hover .welcome-submenu {
+  display: block !important;
+  position: absolute;
+  right: 0.5rem;
+  text-align: center;
+}
+
+.submenu-item {
+  list-style-type: none;
+}
