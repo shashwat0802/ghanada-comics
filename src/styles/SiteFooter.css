@@ -1,0 +1,25 @@
+.site-footer {
+  padding: 1rem;
+  background-color: turquoise;
+  text-align: center;
+}
+
+.site-footer p {
+  font-style: italic;
+  color: #19393b;
+  font-size: 0.95rem;
+}
+
+.site-footer h3 {
+  margin: 0;
+}
+
+.author-img {
+  background-image: url("https://lh3.googleusercontent.com/oQcb7HUW9HWTQWRU0BH8toq3PZUfBaPZaPhgm1jd3bAr7thVtgyrnK98rz5JkLOcR4Z7BQ=s85");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 100px;
+  width: 150px;
+  margin: 0 auto;
+}
