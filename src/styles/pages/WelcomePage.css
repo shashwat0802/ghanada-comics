@@ -1,3 +1,12 @@
+.header-img {
+  background-image: url("https://static.wixstatic.com/media/c6a101_41a0065df0414303a97d904197ed42d5.jpg/v1/fill/w_513,h_245,al_c,q_80,usm_0.66_1.00_0.01/c6a101_41a0065df0414303a97d904197ed42d5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 525px;
+  height: 250px;
+  margin: 0.25rem auto;
+}
+
 .welcome-area {
   border: 10px solid teal;
   text-align: center;

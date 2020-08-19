@@ -1,5 +1,5 @@
 .main-area {
-  width: 80%;
+  width: 90%;
   background-color: #f86700;
   border: 5px solid transparent;
   border-image: url("../trial.jpg") 25 stretch;
@@ -7,11 +7,61 @@
   margin: 0 auto;
 }
 
-.header-img {
-  background-image: url("https://static.wixstatic.com/media/c6a101_41a0065df0414303a97d904197ed42d5.jpg/v1/fill/w_513,h_245,al_c,q_80,usm_0.66_1.00_0.01/c6a101_41a0065df0414303a97d904197ed42d5.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 525px;
-  height: 250px;
-  margin: 0.25rem auto;
+/* global styles */
+.forward-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 1rem;
+}
+
+.forward-content {
+  width: 200px;
+  background-color: teal;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0 3px 3px 0;
+}
+
+.forward-content a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.forward-arrow {
+  width: 0;
+  height: 0;
+  border-top: 1.2rem solid transparent;
+  border-bottom: 1.2rem solid transparent;
+
+  border-left: 1.2rem solid teal;
+}
+
+/* back arrow styles */
+.backward-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 1rem;
+}
+
+.backward-content {
+  width: 200px;
+  background-color: teal;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0 3px 3px 0;
+}
+
+.backward-content a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.backward-arrow {
+  width: 0;
+  height: 0;
+  border-top: 1.2rem solid transparent;
+  border-bottom: 1.2rem solid transparent;
+  border-right: 1.2rem solid teal;
 }

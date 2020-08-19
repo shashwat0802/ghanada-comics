@@ -1,13 +1,13 @@
 import React from "react"
 import "../styles/MainArea.css"
 import WelcomePage from "./pages/WelcomePage"
+import { Route } from "react-router-dom"
 
 const MainArea = () => {
   return (
     <div className="main-area">
-      <div className="header-img"></div>
       {/* different components goes here */}
-      <WelcomePage />
+      <Route exact path="/" component={WelcomePage} />
     </div>
   )
 }

@@ -5,6 +5,14 @@ import "../../styles/pages/WelcomePage.css"
 const WelcomePage = () => {
   return (
     <>
+      <div className="header-img"></div>
+      <div className="forward-wrapper">
+        <div className="forward-content">
+          <Link to="/ghanada-gallery/intro">Intro</Link>
+        </div>
+        <div className="forward-arrow"></div>
+      </div>
+
       <div className="welcome-area">
         <div className="main-text">
           <div className="header">
