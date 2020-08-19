@@ -1,0 +1,71 @@
+.Why .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.Why .red-area p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.why-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-red-area {
+  border: 10px solid teal;
+  text-align: center;
+  width: 35%;
+  margin: 0.5rem auto;
+  position: relative;
+  background-color: #ed1c25;
+  padding: 1.5rem;
+}
+
+.why-red-area:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-red-area:nth-child(1) img {
+  height: 150px;
+  width: 150px;
+  margin: 0.25rem 0;
+}
+
+.why-red-area:nth-child(2) img {
+  height: 250px;
+  width: 250px;
+}
+
+.why-red-area p {
+  font-size: 0.65rem;
+  color: #fff;
+}
+
+/* footer */
+
+.why-footer {
+  width: 75%;
+  height: 250px;
+  background-color: turquoise;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.why-footer img {
+  width: 50%;
+  height: 95%;
+  margin: 0.5rem auto;
+  cursor: pointer;
+}
+
+.why-footer-img {
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+}
