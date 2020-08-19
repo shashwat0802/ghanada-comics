@@ -4,49 +4,31 @@ const Mishmash = () => {
   return (
     <ul className="mishmash-submenu">
       <li className="submenu-item">
-        <Link to href="#">
-          Interviews
-        </Link>
+        <Link to="#">Interviews</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Interview in 'span' July 1974
-        </Link>
+        <Link to="#">Interview in 'span' July 1974</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Translations
-        </Link>
+        <Link to="#">Translations</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Ghanada Club
-        </Link>
+        <Link to="#">Ghanada Club</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Advertisements
-        </Link>
+        <Link to="#">Advertisements</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Audio Drama
-        </Link>
+        <Link to="#">Audio Drama</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Special Issues
-        </Link>
+        <Link to="#">Special Issues</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Comics
-        </Link>
+        <Link to="#">Comics</Link>
       </li>
       <li className="submenu-item">
-        <Link to href="#">
-          Artist's Gallery
-        </Link>
+        <Link to="#">Artist's Gallery</Link>
       </li>
     </ul>
   )

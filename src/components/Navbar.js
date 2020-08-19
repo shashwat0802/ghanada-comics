@@ -16,23 +16,23 @@ const Navbar = () => {
         <div className="items-wrapper">
           <ul>
             <li className="item">
-              <Link to="#">Welcome</Link>
+              <Link to="/">Welcome</Link>
               <Welcome />
             </li>
             <li className="item">
-              <Link to="#">Books</Link>
+              <Link to="/ghanada-gallery/books">Books</Link>
               <Books />
             </li>
             <li className="item">
-              <Link to="#">Canon</Link>
+              <Link to="/ghanada-gallery/stories">Canon</Link>
               <Canon />
             </li>
             <li className="item">
-              <Link to="#">Mishmash</Link>
+              <Link to="/ghanada-gallery/mishmash">Mishmash</Link>
               <Mishmash />
             </li>
             <li className="item">
-              <Link to="#">Missing</Link>
+              <Link to="/ghanada-gallery/missing">Missing</Link>
             </li>
           </ul>
         </div>

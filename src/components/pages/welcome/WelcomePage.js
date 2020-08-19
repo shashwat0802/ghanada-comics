@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import "../../styles/pages/WelcomePage.css"
+import "../../../styles/pages/welcome/WelcomePage.css"
 
 const WelcomePage = () => {
   return (
@@ -13,7 +13,7 @@ const WelcomePage = () => {
         <div className="forward-arrow"></div>
       </div>
 
-      <div className="welcome-area">
+      <div className="red-area">
         <div className="main-text">
           <div className="header">
             <h3>Welcome to 'Ghanada Gallery'</h3>

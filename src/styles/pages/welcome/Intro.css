@@ -1,0 +1,83 @@
+.Intro .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.Intro .red-area p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.intro-imgs {
+  height: 100px;
+  width: 70px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+}
+
+/* div styling  */
+.div-1 {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0%;
+}
+.div-2 {
+  width: 400px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: flex-start;
+}
+.div-3 {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30%;
+}
+.div-4 {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 45%;
+}
+.div-5 {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 60%;
+}
+.div-6 {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 75%;
+}
+
+.Intro .intro-main-area .forward-wrapper .forward-content {
+  align-self: center;
+  margin-left: 1rem;
+  width: 100px;
+  border-radius: 0;
+}
+
+.Intro .intro-main-area .forward-wrapper .forward-arrow {
+  align-self: center;
+}
+
+/* intro imgs */
+.intro-img-1 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 20%;
+  right: 10%;
+}
+
+.intro-img-2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  bottom: 2%;
+  left: 10%;
+}
