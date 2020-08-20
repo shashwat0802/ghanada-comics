@@ -1,0 +1,25 @@
+.Hero .red-area div {
+  display: flex;
+}
+
+.Hero .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.Hero .red-area p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.Hero .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-img {
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+}

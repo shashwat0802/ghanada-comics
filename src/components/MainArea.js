@@ -7,6 +7,8 @@ import Why from "./pages/welcome/Why"
 import How from "./pages/welcome/How"
 import Author from "./pages/welcome/Author"
 import Artists from "./pages/welcome/Artists"
+import Hero from "./pages/welcome/Hero"
+import Thanks from "./pages/welcome/Thanks"
 
 const MainArea = () => {
   return (
@@ -18,6 +20,8 @@ const MainArea = () => {
       <Route exact path="/ghanada-gallery/how" component={How} />
       <Route exact path="/ghanada-gallery/author" component={Author} />
       <Route exact path="/ghanada-gallery/artists" component={Artists} />
+      <Route exact path="/ghanada-gallery/hero" component={Hero} />
+      <Route exact path="/ghanada-gallery/thanks" component={Thanks} />
     </div>
   )
 }

@@ -1,0 +1,11 @@
+.Thanks .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.Thanks p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
