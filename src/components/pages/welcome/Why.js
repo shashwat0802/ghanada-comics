@@ -5,9 +5,9 @@ import Modal from "react-modal"
 
 const Why = () => {
   const [modalstatus, setModalStatus] = useState(false)
+  const [imgUrl, setImgUrl] = useState("")
   const handleClick = (e) => {
-    var imgUrl = e.target.src
-    console.log(imgUrl)
+    setImgUrl(e.target.src)
     setModalStatus(true)
   }
 
@@ -18,7 +18,7 @@ const Why = () => {
         shouldCloseOnOverlayClick={true}
         onRequestClose={() => setModalStatus(false)}
       >
-        <h1>hello</h1>
+        <img src={imgUrl} alt="" width="100%" height="100%" />
       </Modal>
       <div className="link-wrapper">
         <div className="backward-wrapper">
@@ -103,6 +103,7 @@ const Why = () => {
           alt=""
           className="why-footer-img"
         />
+        <p>artist : Ajey deb</p>
       </div>
     </div>
   )

@@ -17,7 +17,7 @@
 .why-red-area {
   border: 10px solid teal;
   text-align: center;
-  width: 35%;
+  max-width: 35%;
   margin: 0.5rem auto;
   position: relative;
   background-color: #ed1c25;
@@ -33,13 +33,13 @@
 
 .why-red-area:nth-child(1) img {
   height: 150px;
-  width: 150px;
+  max-width: 150px;
   margin: 0.25rem 0;
 }
 
 .why-red-area:nth-child(2) img {
   height: 250px;
-  width: 250px;
+  max-width: 250px;
 }
 
 .why-red-area p {
@@ -51,7 +51,7 @@
 
 .why-footer {
   width: 75%;
-  height: 250px;
+  height: 350px;
   background-color: turquoise;
   border-radius: 50px;
   margin: 0 auto;

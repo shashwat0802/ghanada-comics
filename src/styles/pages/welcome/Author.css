@@ -1,0 +1,59 @@
+.Author .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.Author .red-area p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.Author .red-area h3 a {
+  color: #fff;
+}
+
+.author-main-img {
+  max-width: 500px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+}
+
+.premendra-img {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.author-footer {
+  max-width: 75%;
+  max-height: 350px;
+  background-color: turquoise;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.author-footer img {
+  max-height: 300px;
+  max-width: 250px;
+}
+
+.author-footer p {
+  align-self: center;
+  font-size: 1.25rem;
+  max-width: 500px;
+  justify-self: center;
+  line-height: 2.2;
+}
+
+.author-img-wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.author-footer-img {
+  max-height: 200px;
+  max-width: 100px;
+}

@@ -1,0 +1,48 @@
+.How .red-area h1 {
+  color: #30c4c6;
+  text-decoration-line: underline;
+  margin-top: 0;
+}
+
+.how-first-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-first-img img {
+  height: 400px;
+  width: 400px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+}
+
+.how-first-content p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 2.25rem auto;
+}
+
+.how-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-img-wrapper p {
+  color: #fff;
+}
+
+.how-img-1 img {
+  height: 500px;
+  width: 400px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+}
+.how-img-2 img {
+  height: 500px;
+  width: 400px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+}
