@@ -78,3 +78,8 @@
   width: 80%;
   margin-left: 5rem;
 }
+
+/* image border */
+.image-border {
+  border-image: url("../trial.jpg") 30 stretch;
+}

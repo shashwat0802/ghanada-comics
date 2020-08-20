@@ -6,6 +6,7 @@ import Intro from "./pages/welcome/Intro"
 import Why from "./pages/welcome/Why"
 import How from "./pages/welcome/How"
 import Author from "./pages/welcome/Author"
+import Artists from "./pages/welcome/Artists"
 
 const MainArea = () => {
   return (
@@ -16,6 +17,7 @@ const MainArea = () => {
       <Route exact path="/ghanada-gallery/why" component={Why} />
       <Route exact path="/ghanada-gallery/how" component={How} />
       <Route exact path="/ghanada-gallery/author" component={Author} />
+      <Route exact path="/ghanada-gallery/artists" component={Artists} />
     </div>
   )
 }

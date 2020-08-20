@@ -1,0 +1,67 @@
+.area1-img {
+  max-width: 150px;
+  height: 200px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.artists-area-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.area1-imgs {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.area1-imgs img {
+  display: inline-block;
+}
+
+.area1-content {
+  width: 50%;
+}
+
+.area2-content {
+  width: 70%;
+}
+
+.artists-area-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.area2-imgs {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.area2-imgs img {
+  display: inline-block;
+}
+
+.area2-img img {
+  max-width: 150px;
+  height: 200px;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+.artists-end-div {
+  display: flex;
+  justify-content: space-between;
+}
+.artists-end-div img {
+  max-width: 250px;
+  max-height: 300px;
+  min-height: 200px;
+  cursor: pointer;
+  border: 5px solid transparent;
+  border-image: url("../../../trial.jpg") 30 stretch;
+}
