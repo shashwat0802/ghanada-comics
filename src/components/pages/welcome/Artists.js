@@ -334,7 +334,7 @@ const Artists = () => {
               onClick={handleClick}
             />
             <img
-              src="https://lh3.googleusercontent.com/XgpKwbqjq3WaK5z_3YF_nhqKQ6odKwnX795ArPt7uGLrhjRllHm8H09D8YAEObEvCtjA91Y=s85"
+              src="https://lh3.googleusercontent.com/jGMq8ba-RdWtx9Bf_-RO_NxmMygMRkWMM26OB4w0OolA35_DysElF07zHsZ0i1X-y2AU=s85"
               alt=""
               onClick={handleClick}
             />
